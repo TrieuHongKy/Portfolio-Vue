@@ -1,6 +1,6 @@
 let info = {
-  name: "Hrishikesh Paul",
-  logo_name: "paul",
+  name: "Triệu Hồng Ký",
+  logo_name: "HongKy",
   flat_picture: require("./src/assets/potrait.jpg"),
   config: {
     use_cookies: true,
@@ -26,6 +26,7 @@ let info = {
       gpa: "3.7/4.0",
       description:
         "Currently pursuing my Master's in Computer Science, while specializing in the field of Artificial Intelligence and Machine Learning.",
+      // eslint-disable-next-line no-sparse-arrays
       skills: [
         "Artificial Intelligence",
         "Software Engineering",
