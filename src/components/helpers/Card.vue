@@ -8,7 +8,7 @@
         'bg-dark3': nightMode,
       }"
     >
-      <div style="height: 180px;">
+      <div style="height: 180px; display: flex; justify-content:center; align-items: center; padding-left: 15px; padding-right: 15px">
         <img
           class="card-img-top"
           :src="portfolio.pictures[0].img"
@@ -43,16 +43,16 @@
             class="btn-sm btn btn-outline-secondary no-outline"
             @click.prevent="showModal"
           >
-            read more
+            Xem Thêm
           </button>
-          <button
+          <!-- <button
             href="#"
             class="btn-sm btn btn-outline-secondary no-outline ml-4"
             v-if="portfolio.visit"
             @click.prevent="open(portfolio.visit)"
           >
             visit website
-          </button>
+          </button> -->
         </div>
       </div>
     </div>

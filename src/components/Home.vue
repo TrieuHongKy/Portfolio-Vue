@@ -2,6 +2,7 @@
   <div
     :class="{ 'bg-white': !nightMode, 'bg-dark': nightMode }"
     class="pt-5 p-st"
+    style="padding-bottom: 50px"
   >
     <div
       class="container"
@@ -10,25 +11,43 @@
       data-aos-duration="1000"
     >
       <div class="row align-items-center">
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
+        <div class="col-xl-5 col-bg-6 col-md-6 col-sm-12 text-center">
           <img :src="picture" />
         </div>
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5">
+        <div class="col-xl-7 col-bg-6 col-md-6 col-sm-12 pt-5">
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
-            >hello there!</span
+            >Xin Chào!</span
           >
-          <div>
+          <div style="font-size: 18px;">
             <p v-html="description"></p>
+            <p>
+              Email liên hệ :
+              <span
+                ><a
+                  style="font-weight: 500; color: #000000"
+                  :style="{ color: nightMode ? 'white' : '#000000' }"
+                  href="mailto:trieuhongky11112003@gmail.com"
+                  >trieuhongky11112003@gmail.com</a
+                ></span
+              >
+            </p>
           </div>
           <div class="text-center pb-4">
-            <button
-              class="btn btn-outline-secondary mx-2 "
+            <!-- <button
+              class="btn btn-outline-secondary mx-2"
               @click="open('linkedin')"
               v-tooltip.bottom="'LinkedIn'"
             >
               <i class="fab fa-linkedin"></i>
+            </button> -->
+            <button
+              class="btn btn-outline-secondary mx-2"
+              @click="open('facebook')"
+              v-tooltip.bottom="'Facebook'"
+            >
+              <i class="fab fa-facebook"></i>
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
@@ -39,18 +58,18 @@
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
-              @click="open('angellist')"
-              v-tooltip.bottom="'AngelList'"
+              @click="open('envelope')"
+              v-tooltip.bottom="'Email'"
             >
-              <i class="fab fa-angellist"></i>
+              <i class="fa fa-envelope"></i>
             </button>
-            <button
+            <!-- <button
               class="btn btn-outline-secondary mx-2"
               @click="open('resume')"
               v-tooltip.bottom="'Resume'"
             >
               <i class="fa fa-file"></i>
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
@@ -79,26 +98,33 @@ export default {
       description: info.description,
       name: info.name,
       linkedin: info.links.linkedin,
+      facebook: info.links.facebook,
       github: info.links.github,
       angellist: info.links.angellist,
-      resume: info.links.resume
+      resume: info.links.resume,
     };
   },
   methods: {
     open(link) {
       switch (link) {
-        case "linkedin":
-          window.open(this.linkedin, "_blank");
+        case "facebook":
+          window.open(this.facebook, "_blank");
           break;
+        // case "linkedin":
+        //   window.open(this.linkedin, "_blank");
+        //   break;
         case "github":
           window.open(this.github, "_blank");
           break;
-        case "angellist":
-          window.open(this.angellist, "_blank");
+        case "envelope":
+          window.location.href = "mailto:trieuhongky11112003@gmail.com";
           break;
-        case "resume":
-          window.open(this.resume, "_blank");
-          break;
+        // case "angellist":
+        //   window.open(this.angellist, "_blank");
+        //   break;
+        // case "resume":
+        //   window.open(this.resume, "_blank");
+        //   break;
       }
     },
   },
@@ -112,8 +138,8 @@ export default {
 }
 
 img {
+  margin-bottom: 20px;
   max-width: 300px;
-  margin-top: 60px;
   transform: rotateY(180deg);
 }
 

@@ -17,7 +17,7 @@
         <span
           class="title text-center"
           :class="{ pgray: !nightMode, 'text-light': nightMode }"
-          >portfolio.</span
+          >Dự Án.</span
         >
       </div>
       <hr
@@ -26,7 +26,7 @@
       />
 
       <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
-        <v-tab title="development">
+        <v-tab title="Phát triển dự án">
           <br />
           <div class="row">
             <div
@@ -49,12 +49,12 @@
               />
             </div>
           </div>
-          <div class="text-center py-3" v-if="showBtn !== 'show less'">
+          <!-- <div class="text-center py-3" v-if="showBtn !== 'show less'">
             <button class="btn" @click.prevent="showMore">{{ showBtn }}</button>
-          </div>
+          </div> -->
         </v-tab>
 
-        <v-tab title="design">
+        <!-- <v-tab title="design">
           <div class="row">
             <div
               v-for="(design, idx) in desgin_info"
@@ -106,7 +106,7 @@
             </div>
           </div>
           <br />
-        </v-tab>
+        </v-tab> -->
       </vue-tabs>
     </div>
     <transition name="modal">
@@ -168,7 +168,7 @@ export default {
       showDesignModal: false,
       modal_info: {},
       design_modal_info: {},
-      number: 3,
+      number: 2,
       showBtn: "show more",
       shower: 0,
       data: [

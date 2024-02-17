@@ -62,9 +62,9 @@
               :class="{ pgray: !nightMode, 'bg-secondary': nightMode }"
             />
             <button class="btn w-25 mr-3" @click="open(portfolio.github)">
-              github
+              Github
             </button>
-            <button class="btn w-25" @click="$emit('close')">close</button>
+            <button class="btn w-25" @click="$emit('close')">Đóng</button>
           </div>
         </div>
       </div>
@@ -148,7 +148,7 @@ a:hover {
 
 .modal-container {
   width: 40%;
-  max-height: 70%;
+  max-height: 85%;
   margin: 0px auto;
   border-radius: 7px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);

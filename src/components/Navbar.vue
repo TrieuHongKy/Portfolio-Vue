@@ -35,10 +35,10 @@
             <li class="nav-item mx-2">
               <a
                 class="nav-link"
-                href="/about"
-                @click.prevent="$emit('scroll', 'about')"
+                href="/experience"
+                @click.prevent="$emit('scroll', 'experience')"
                 :class="{ 'text-light': nightMode }"
-                >about</a
+                >Kinh Nghiệm</a
               >
             </li>
             <li class="nav-item mx-2">
@@ -47,7 +47,7 @@
                 href="/skills"
                 @click.prevent="$emit('scroll', 'skills')"
                 :class="{ 'text-light': nightMode }"
-                >skills</a
+                >Kỹ Năng</a
               >
             </li>
             <li class="nav-item mx-2 ">
@@ -56,10 +56,10 @@
                 href="/portfolio"
                 @click.prevent="$emit('scroll', 'portfolio')"
                 :class="{ 'text-light': nightMode }"
-                >portfolio</a
+                >Dự Án</a
               >
             </li>
-            <li class="nav-item mx-2">
+            <!-- <li class="nav-item mx-2">
               <a
                 class="nav-link"
                 href="/contact"
@@ -67,7 +67,7 @@
                 :class="{ 'text-light': nightMode }"
                 >contact</a
               >
-            </li>
+            </li> -->
             <li class="nav-item ml-2">
               <a
                 class="nav-link"

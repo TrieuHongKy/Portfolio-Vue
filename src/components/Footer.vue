@@ -6,16 +6,22 @@
           class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
           style="color: white;"
         >
-          <span>© 2020 Copyright: Hrishikesh Paul</span>
+          <span>© TrieuHongKy</span>
         </div>
 
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
           <div class="text-center">
-            <button
+            <!-- <button
               class="btn btn-outline-secondary mx-2 "
               @click="open('linkedin')"
             >
               <i class="fab fa-linkedin"></i>
+            </button> -->
+            <button
+              class="btn btn-outline-secondary mx-2"
+              @click="open('facebook')"
+            >
+              <i class="fab fa-facebook"></i>
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
@@ -24,6 +30,12 @@
               <i class="fab fa-github"></i>
             </button>
             <button
+              class="btn btn-outline-secondary mx-2"
+              @click="open('envelope')"
+            >
+              <i class="fa fa-envelope"></i>
+            </button>
+            <!-- <button
               class="btn btn-outline-secondary mx-2"
               @click="open('angellist')"
             >
@@ -34,7 +46,7 @@
               @click="open('resume')"
             >
               <i class="fa fa-file"></i>
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
@@ -53,23 +65,30 @@ export default {
       github: info.links.github,
       angellist: info.links.angellist,
       resume: info.links.resume,
+      facebook: info.links.facebook,
     };
   },
   methods: {
     open(link) {
       switch (link) {
+        case "facebook":
+          window.open(this.facebook, "_blank");
+          break;
         case "linkedin":
           window.open(this.linkedin, "_blank");
           break;
         case "github":
           window.open(this.github, "_blank");
           break;
-        case "angellist":
-          window.open(this.angellist, "_blank");
+          case "envelope":
+          window.location.href = "mailto:trieuhongky11112003@gmail.com";
           break;
-        case "resume":
-          window.open(this.resume, "_blank");
-          break;
+        // case "angellist":
+        //   window.open(this.angellist, "_blank");
+        //   break;
+        // case "resume":
+        //   window.open(this.resume, "_blank");
+        //   break;
       }
     },
   },
