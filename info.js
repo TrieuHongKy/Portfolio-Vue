@@ -9,7 +9,7 @@ let info = {
     },
   },
   description:
-    "Em là sinh viên trường Cao Đẳng FPT Polytechnic Cần Thơ và vừa tốt nghiệp loại giỏi ngành Thiết Kế Website, có đam mê với thiết kế UX/UI và phát triển phần mềm. Là một người có tinh thần cầu tiến và có trách nhiệm trong công việc, không ngại tìm tòi, học hỏi và làm việc các kiến thức mới, em mong muốn tìm kiếm những cơ hội việc làm phù hợp với khả năng của bản thân.",
+    "Tôi là sinh viên vừa tốt nghiệp loại giỏi ngành Thiết Kế Website, có đam mê với thiết kế UX/UI và phát triển phần mềm. Là một người có tinh thần cầu tiến và có trách nhiệm trong công việc, không ngại tìm tòi, học hỏi và làm việc với các kiến thức mới, tôi mong muốn tìm kiếm những cơ hội việc làm phù hợp với khả năng của bản thân và cũng không ngần ngại nếu làm trái chuyên ngành.",
   links: {
     facebook: "https://www.facebook.com/ky111103/",
     github: "https://github.com/TrieuHongKy",
@@ -196,7 +196,7 @@ let info = {
       github: "https://github.com/huthoinguyn/TVKG",
       visit: "https://github.com/huthoinguyn/TVKG",
       description:
-        "Dự án website tìm kiếm việc làm mang tên Tìm Việc Kiên Giang là dự án tốt nghiệp của nhóm chúng em, dự án cũng được mang đi thi cuộc thi khởi nghiệp sinh viên toàn quốc Startup Kite và vào được vòng bán kết. Website có đầy đủ các chức năng cho ứng viên bao gồm tự chỉnh sửa hồ sơ cá nhân và thêm các kinh nghiệm, chứng chỉ, có thể tìm kiếm, yêu thích việc làm và nộp cv cho nhà tuyển dụng. Còn về nhà tuyển dụng thì có một hệ thống riêng để nhà tuyển dụng đăng bài viết, đăng việc làm và quản lý việc làm, các bình luận bài viết cũng như duyệt hồ sơ ứng viên. Ngoài ra còn có tính năng mua lượt yêu thích của việc làm, việc làm được yêu thích sẽ được ưu tiên đẩy lên hàng đầu danh sách khi ứng viên tìm kiếm. Ngoài ra sau khi được chấp nhận hồ sơ, ứng viên và nhà tuyển dụng có thể nhắn tin trao đổi với nhau. ",
+        "Dự án website tìm kiếm việc làm mang tên Tìm Việc Kiên Giang là dự án tốt nghiệp của nhóm chúng tôi, dự án cũng được mang đi thi cuộc thi khởi nghiệp sinh viên toàn quốc Startup Kite và vào được vòng bán kết. Website có đầy đủ các chức năng cho ứng viên bao gồm tự chỉnh sửa hồ sơ cá nhân và thêm các kinh nghiệm, chứng chỉ, có thể tìm kiếm, yêu thích việc làm và nộp cv cho nhà tuyển dụng. Còn về nhà tuyển dụng thì có một hệ thống riêng để nhà tuyển dụng đăng bài viết, đăng việc làm và quản lý việc làm, các bình luận bài viết cũng như duyệt hồ sơ ứng viên. Ngoài ra còn có tính năng mua lượt yêu thích của việc làm, việc làm được yêu thích sẽ được ưu tiên đẩy lên hàng đầu danh sách khi ứng viên tìm kiếm. Ngoài ra sau khi được chấp nhận hồ sơ, ứng viên và nhà tuyển dụng có thể nhắn tin trao đổi với nhau. ",
     },
     {
       name: "Dự Án Quản Lý Quán Ăn - 68Food",
