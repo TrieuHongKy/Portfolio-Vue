@@ -18,11 +18,11 @@
           <span
             class="home-title"
             :class="{ pgray: !nightMode, 'text-light': nightMode }"
-            >Xin Chào!</span
+            >Xin chào!</span
           >
           <div style="font-size: 18px;">
             <p v-html="description"></p>
-            <p>
+            <div style="padding-bottom: 12px">
               Email liên hệ :
               <span
                 ><a
@@ -32,7 +32,7 @@
                   >trieuhongky11112003@gmail.com</a
                 ></span
               >
-            </p>
+            </div>
           </div>
           <div class="text-center pb-4">
             <!-- <button
