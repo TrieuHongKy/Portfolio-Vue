@@ -3,8 +3,8 @@
     <Navbar @scroll="scrollTo" @nightMode="switchMode" :nightMode="nightMode" />
     <div class="parent">
       <Home :nightMode="nightMode" />
-      <About id="experience" :nightMode="nightMode" />
       <Skills id="skills" :nightMode="nightMode" />
+      <About id="experience" :nightMode="nightMode" />
       <Portfolio id="portfolio" :nightMode="nightMode" />
       <!-- <Recommendation :nightMode="nightMode" /> -->
       <!-- <Contact id="contact" :nightMode="nightMode" /> -->
